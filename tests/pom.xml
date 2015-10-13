@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.everit.authnr</groupId>
     <artifactId>org.everit.authnr.qdsl.util.ri.ecm.parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
   <groupId>org.everit.authnr</groupId>
@@ -97,7 +97,7 @@
     <dependency>
       <groupId>org.everit.authnr</groupId>
       <artifactId>org.everit.authnr.qdsl.util.ri.ecm</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>${project.version}</version>
     </dependency>
 
     <!-- Basic OSGi to tests -->

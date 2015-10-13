@@ -36,7 +36,6 @@
   <name>Everit - Authenticated Authorization QDSL Util RI ECM</name>
   <description>ECM based component of authnr-qdsl-util-ri</description>
 
-
   <properties>
     <projectpath>authnr-qdsl-util-ri-ecm</projectpath>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -102,7 +101,7 @@
     <dependency>
       <groupId>org.everit.authnr</groupId>
       <artifactId>org.everit.authnr.qdsl.util.ri</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
     </dependency>
 
     <dependency>

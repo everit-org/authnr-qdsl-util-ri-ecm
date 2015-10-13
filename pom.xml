@@ -29,11 +29,9 @@
 
   <groupId>org.everit.authnr</groupId>
   <artifactId>org.everit.authnr.qdsl.util.ri.ecm.parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <packaging>pom</packaging>
-
-  <name>Everit - Authentication Authorization QDSL Util RI ECM Parent</name>
 
   <properties>
     <maven.site.skip>true</maven.site.skip>
