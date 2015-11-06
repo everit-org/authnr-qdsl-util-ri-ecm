@@ -23,10 +23,10 @@ import org.everit.osgi.ecm.annotation.Service;
 import org.everit.osgi.ecm.extender.ECMExtenderConstants;
 import org.junit.Assert;
 
-import com.mysema.query.types.ConstantImpl;
-import com.mysema.query.types.Expression;
-import com.mysema.query.types.expr.BooleanExpression;
-import com.mysema.query.types.template.BooleanTemplate;
+import com.querydsl.core.types.ConstantImpl;
+import com.querydsl.core.types.Expression;
+import com.querydsl.core.types.dsl.BooleanExpression;
+import com.querydsl.core.types.dsl.Expressions;
 
 import aQute.bnd.annotation.headers.ProvideCapability;
 
@@ -40,7 +40,7 @@ import aQute.bnd.annotation.headers.ProvideCapability;
 @Service
 public class MockAuthorizationQdslUtilComponent implements AuthorizationQdslUtil {
 
-  public static final BooleanExpression AUTHORIZATION_PREDICATE = BooleanTemplate.FALSE;
+  public static final BooleanExpression AUTHORIZATION_PREDICATE = Expressions.FALSE;
 
   public static final Expression<Long> TARGET_RESOURCE_ID_EXPRESSION =
       ConstantImpl.create(AuthnrQdslUtilTest.TARGET_RESOURCE_ID);
